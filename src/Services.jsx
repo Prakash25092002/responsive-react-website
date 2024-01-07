@@ -37,7 +37,7 @@ const data6={
     <Card {...data3}/>
     
     </div>
-    <div className='flex flex-wrap gap-6 md:gap-14 justify-center'>
+    <div className='flex flex-wrap gap-6 md:gap-14 justify-center md:mb-[50px] mb-10'>
     <Card {...data4}/>
     <Card {...data5}/>
     <Card {...data6}/>

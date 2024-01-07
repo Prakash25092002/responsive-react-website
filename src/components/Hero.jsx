@@ -11,11 +11,11 @@ const Hero = (props) => {
      name: "Hire ME"
   }
   return (
-    <div className='  flex flex-col gap-4 items-center justify-center md:justify-center md:items-center md:flex md:gap-16 md:flex-row-reverse   md:py-16 py-7 bg-gray-300'>
+    <div className='  flex flex-col gap-4  items-center justify-center md:justify-center md:items-center md:flex md:gap-16  md:h-[500px] md:flex-row-reverse   md:py-16 py-7 bg-gray-300'>
        <div className=' w-auto  md:w-[300px]  md:h-[200px]'>
         <img src={image} alt=""  />
       </div>
-      <div className=' mb-10 ' >
+      <div className=' mb-10  ' >
         <p className='text-gray-800'>This is me</p>
         <h1 className='text-4xl font-bold mb-3 '>{props.name}</h1>
         <p className='mb-3'> I'm  {name} A <span className='font-bold text-sky-900'>Frontend Devloper</span></p>
